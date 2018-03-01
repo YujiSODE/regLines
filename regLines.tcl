@@ -368,18 +368,3 @@ namespace eval ::regLines {
 		return $fileName;
 	};
 };
-##!!!! test code
-#normal distribution
-proc F {X} {
-	set X [expr {double($X)}];
-	set pi 3.141592653589793;
-	return [expr {exp(-($X**2)/2)/sqrt(2*$pi)}];
-};
-set x {};set y {};
-set I [format %.4f -4.0];
-set dI [format %.4f 0.025];
-while {$I<(4.0+$dI)} {
-	lappend x $I;
-	lappend y [format %.4f [F $I]];
-	set I [format %.4f [expr {$I+$dI}]];
-};
