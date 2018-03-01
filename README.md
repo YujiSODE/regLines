@@ -15,3 +15,9 @@ it outputs tcl script file that defines additional math functions (`lines(x)`, `
 ## 2. Script
 It requires Tcl/Tk 8.6+.
 - `regLines.tcl`
+
+## 3. Library list
+- lSum/lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
+
+## 4. Reference
+- Iri, M. and Fujino., Y. 1985. Suchi keisan no joshiki (Japanese). Kyoritsu Shuppan Co., Ltd. ISBN 978-4-320-01343-8
