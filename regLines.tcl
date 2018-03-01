@@ -54,10 +54,10 @@ package require Tcl 8.6;
 namespace eval ::tcl::mathfunc {
 	#=== lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0 ===
 	#it returns sum of given list
-	#Reference: Iri, M., and Fujino., Y. 1985. Suchi keisan no joshiki (Japanese). Kyoritsu Shuppan Co., Ltd. ISBN 978-4-320-01343-8
+	#Reference: Iri, M. and Fujino, Y. 1985. Suchi keisan no joshiki (Japanese). Kyoritsu Shuppan Co., Ltd. ISBN 978-4-320-01343-8
 	proc lSum {list} {
 		#=== lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0 ===
-		#Reference: Iri, M., and Fujino., Y. 1985. Suchi keisan no joshiki (Japanese). Kyoritsu Shuppan Co., Ltd. ISBN 978-4-320-01343-8
+		#Reference: Iri, M. and Fujino, Y. 1985. Suchi keisan no joshiki (Japanese). Kyoritsu Shuppan Co., Ltd. ISBN 978-4-320-01343-8
 		namespace path {::tcl::mathop};set S 0.0;set R 0.0;set T 0.0;foreach e $list {set R [+ $R [expr double($e)]];set T $S;set S [+ $S $R];set T [+ $S [expr {-$T}]];set R [+ $R [expr {-$T}]];};return $S;
 	};
 	#
