@@ -1,7 +1,7 @@
 # regLines
 Tool for generating random variables that follows given frequency distibution using linear regressions in given intervals.  
 GitHub: https://github.com/YujiSODE/regLines  
->Copyright (c) 2017 Yuji SODE \<yuji.sode@gmail.com\>  
+>Copyright (c) 2018 Yuji SODE \<yuji.sode@gmail.com\>  
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php
 ______
