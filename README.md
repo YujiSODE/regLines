@@ -14,8 +14,12 @@ it outputs tcl script file that defines additional math functions (`lines(x)`, `
   generated filename has a form of `"${name}_regL.tcl"`
 ### Input data ranges for linear regressions
 Two expressions are available for linear regressions.
-1. `dx`
-2. `x0 x1 ... xn`
+1. `dx`  
+   data ranges are defined as `v0 v1 ... vn` where `v0` and `vn` are the maximum and minimum values.  
+   `vi=v(i-1)+dx` and `0<i<n`.  
+   
+2. `x0 x1 ... xn`  
+   data ranges are defined as `x0 x1 ... xn`.
 
 ## 2. Script
 It requires Tcl/Tk 8.6+.
