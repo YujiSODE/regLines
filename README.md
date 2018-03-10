@@ -1,6 +1,7 @@
 # regLines
 Tool for generating random variables that follows given frequency distibution using linear regressions in given intervals.  
 GitHub: https://github.com/YujiSODE/regLines  
+Wiki: https://github.com/YujiSODE/regLines/wiki  
 >Copyright (c) 2018 Yuji SODE \<yuji.sode@gmail.com\>  
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php
@@ -11,6 +12,14 @@ it outputs tcl script file that defines additional math functions (`lines(x)`, `
 - `$X` and `$Y`: numerical lists for x-axis and y-axis
 - `$name`: a text used in order to generate filename of output file, and numbers are default value.  
   generated filename has a form of `"${name}_regL.tcl"`
+### Input data ranges for linear regressions
+Two expressions are available for linear regressions.
+1. `dx`  
+   data ranges are defined as `v0 v1 ... vn` where `v0` and `vn` are the maximum and minimum values.  
+   `vi=v(i-1)+dx` and `0<i<n`.  
+   
+2. `x0 x1 ... xn`  
+   data ranges are defined as `x0 x1 ... xn`.
 
 ## 2. Script
 It requires Tcl/Tk 8.6+.
