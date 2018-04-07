@@ -9,4 +9,5 @@
   `  - `$x`: a numerical value`
 
 ## Changed
+- [regLines.tcl] line 44: `#+++ functions defined by output tcl script file +++`
 - [README.md] line 28: `## 5. Library list`
