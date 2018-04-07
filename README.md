@@ -30,6 +30,7 @@ It requires Tcl/Tk 8.6+.
 - `linesPDF(x)`: function that returns a value of probability density function estimated from the sample distribution
 - `linesVar()`: function that returns a random variable following PDF
   - `$x`: a numerical value
+
 ## 4.
 
 ## 5. Library list
