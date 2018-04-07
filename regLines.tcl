@@ -41,7 +41,7 @@
 #   - $X: a numerical list for x-axis
 #   - $Y: a numerical list for y-axis
 #--------------------------------------------------------------------
-#+++ function defined by output tcl script file +++
+#+++ functions defined by output tcl script file +++
 # - lines(x): function that returns estimated sample distribution
 # - linesPDF(x): function that returns a value of probability density function estimated from the sample distribution
 # - linesVar(): function that returns a random variable following PDF
