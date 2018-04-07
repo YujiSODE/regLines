@@ -34,6 +34,8 @@ It requires Tcl/Tk 8.6+.
 ## 4. Simplified implementation of `linesVar()` function
 ### Simplified implementation in Tcl
 - [linesvar_toTcl.tcl](https://gist.github.com/YujiSODE/a65ccf09027f53eeac0ab5e6455a0e25) (Yuji SODE, 2018): the MIT License
+### Simplified implementation in JavaScript
+- [linesvar_toJavaScript.tcl](https://gist.github.com/YujiSODE/b4bdf10ab7f6700a55baf7acfb351977) (Yuji SODE, 2018): the MIT License
 
 ## 5. Library list
 - lSum/lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
