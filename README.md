@@ -25,5 +25,12 @@ Two expressions are available for linear regressions.
 It requires Tcl/Tk 8.6+.
 - `regLines.tcl`
 
-## 4. Library list
+## 3. Functions defined by output tcl script file
+- `lines(x)`: function that returns estimated sample distribution
+- `linesPDF(x)`: function that returns a value of probability density function estimated from the sample distribution
+- `linesVar()`: function that returns a random variable following PDF
+  - `$x`: a numerical value
+## 4.
+
+## 5. Library list
 - lSum/lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
