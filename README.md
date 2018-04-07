@@ -31,7 +31,7 @@ It requires Tcl/Tk 8.6+.
 - `linesVar()`: function that returns a random variable following PDF
   - `$x`: a numerical value
 
-## 4. [v1.1+] Simplified implementation of `linesVar()` function defined by output tcl script file
+## 4. Simplified implementation of `linesVar()` function
 
 ## 5. Library list
 - lSum/lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
