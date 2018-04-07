@@ -25,5 +25,5 @@ Two expressions are available for linear regressions.
 It requires Tcl/Tk 8.6+.
 - `regLines.tcl`
 
-## 3. Library list
+## 4. Library list
 - lSum/lSum.tcl (Yuji SODE, 2018): https://gist.github.com/YujiSODE/1f9a4e2729212691972b196a76ba9bd0
